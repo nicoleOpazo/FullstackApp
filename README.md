@@ -22,9 +22,9 @@ El Back-End de la aplicación se desarrolla en Spring Boot y ofrece una API REST
 
 ## Ejecución
 
-- Inicia el Back-End Spring Boot.
-- Inicia el Front-End Angular utilizando el comando `ng serve -o`.
-- Acceso y registro de usuarios: la aplicación muestra a los usuarios que se han registrado previamente a través del endpoint de la API utilizando una herramienta como Postman. Para registrar un nuevo usuario, sigue estos pasos:
+** Inicia el Back-End Spring Boot. **
+** Inicia el Front-End Angular utilizando el comando `ng serve -o`. **
+** Acceso y registro de usuarios: ** la aplicación muestra a los usuarios que se han registrado previamente a través del endpoint de la API utilizando una herramienta como Postman. Para registrar un nuevo usuario, sigue estos pasos:
 
 1. Abre Postman o una herramienta similar para realizar solicitudes HTTP.
 2. Utiliza el endpoint de registro de usuarios proporcionado por la API para crear un nuevo usuario. Asegúrate de proporcionar los datos requeridos para el registro
@@ -32,7 +32,7 @@ El Back-End de la aplicación se desarrolla en Spring Boot y ofrece una API REST
 
 ### Ejemplo
 - Crear un Usuario (POST)
-- URL: /usuarios
+- URL: http://localhost:8080/usuarios
 - Método: POST
 - Ejemplo de JSON de Solicitud: 
 ```json
