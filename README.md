@@ -26,6 +26,7 @@ Puedes clonar el repositorio utilizando Git:
 
 ```bash
 git clone https://github.com/tu-usuario/tu-repositorio.git
+```
 
 ## Requisitos Previos
 
