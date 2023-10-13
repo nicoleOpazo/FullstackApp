@@ -20,9 +20,24 @@ La aplicación utiliza el enrutamiento de Angular para navegar entre los compone
 
 El Back-End de la aplicación se desarrolla en Spring Boot y ofrece una API REST que gestiona las entidades "Usuarios" y "Carritos". Utiliza una base de datos H2 en memoria para almacenar los datos y ofrece varios endpoints para realizar operaciones CRUD en estas entidades.
 
+## Descarga
+
+Puedes clonar el repositorio utilizando Git:
+
+```bash
+git clone https://github.com/tu-usuario/tu-repositorio.git
+
+## Requisitos Previos
+
+- [Node](https://nodejs.org/en)
+- [Angular](https://angular.io/)
+- [Postman](https://www.postman.com/)
+- [Java](https://www.oracle.com/java/technologies/downloads/)
+- [Maven](https://maven.apache.org/)
+
 ## Ejecución
 
-- **Inicia el Back-End Spring Boot.**
+- **Inicia el Back-End Spring Boot desde la línea de comandos con mvn spring-boot:run o desde su IDE**
 - **Inicia el Front-End Angular utilizando el comando `ng serve -o`.**
 - **Acceso y registro de usuarios:** la aplicación muestra a los usuarios que se han registrado previamente a través del endpoint de la API utilizando una herramienta como Postman. Para registrar un nuevo usuario, sigue estos pasos:
 
